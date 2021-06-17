@@ -9,7 +9,7 @@ metadata:
   name: prometheus-operator
   namespace: default
 spec:
-  clusterIP: None
+  clusterIP: LoadBalancer
   ports:
   - name: http
     port: 8080
